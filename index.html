@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="./cdn.tailwindcss.js"></script>
+	<link rel="stylesheet" href="./setup.css">
+	<title>Index</title>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center">
+	<div id="main-container" class="grow w-full flex flex-col justify-center items-center bg-zinc-950">
+
+		<div class="bg-gray-800 rounded-2xl sm:p-8 p-6 max-w-sm flex flex-col gap-8 sm:scale-100 scale-90">
+			<div class="flex flex-col">
+				<div class="rounded-full bg-gray-700 size-12 flex justify-center items-center">
+					<svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+						<path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z" fill="#FC7614"/> 
+					</svg>
+				</div>
+			</div>
+
+			<div>
+				<span class="block text-2xl text-white font-bold">How did we do?</span>
+				<span class="block text-white/50 text-sm">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</span>
+			</div>
+
+			<div class="flex justify-between">
+				<span id="1" data-value="1" class="ratings text-white/50 hover:text-gray-900 text-sm bg-gray-700 hover:bg-orange-500 active:bg-white font-semibold size-12 cursor-pointer rounded-full flex justify-center items-center">1</span>
+				<span id="2" data-value="2" class="ratings text-white/50 hover:text-gray-900 text-sm bg-gray-700 hover:bg-orange-500 active:bg-white font-semibold size-12 cursor-pointer rounded-full flex justify-center items-center">2</span>
+				<span id="3" data-value="3" class="ratings text-white/50 hover:text-gray-900 text-sm bg-gray-700 hover:bg-orange-500 active:bg-white font-semibold size-12 cursor-pointer rounded-full flex justify-center items-center">3</span>
+				<span id="4" data-value="4" class="ratings text-white/50 hover:text-gray-900 text-sm bg-gray-700 hover:bg-orange-500 active:bg-white font-semibold size-12 cursor-pointer rounded-full flex justify-center items-center">4</span>
+				<span id="5" data-value="5" class="ratings text-white/50 hover:text-gray-900 text-sm bg-gray-700 hover:bg-orange-500 active:bg-white font-semibold size-12 cursor-pointer rounded-full flex justify-center items-center">5</span>
+			</div>
+
+			<div>
+				<button id="submit" class="tracking-widest w-full rounded-full px-2 py-3 bg-orange-500 active:bg-white text-gray-900 text-xs font-semibold">SUBMIT</button>
+			</div>
+		</div>
+
+	</div>
+</body>
+<script src="./submit.js"></script>
+</html>
